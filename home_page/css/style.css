@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 30;
-  grid-gap: 0px;
+  grid-gap: 10px;
   height: 50vh; }
 
 .header {
@@ -71,7 +71,7 @@ body {
   grid-column-end: 11;
   grid-row-start: 4;
   grid-row-end: 10;
-  height: 586px;
+  height: 371px;
   padding-left: 5px;
   border: 0px solid black;
   background-color: #4CAF50; }
@@ -173,7 +173,7 @@ body {
 #hikeInfo {
   grid-column-start: 2;
   grid-column-end: 10;
-  grid-row-start: 12;
+  grid-row-start: 20;
   grid-row-end: 50;
   color: green;
   padding-top: 3px;
@@ -193,5 +193,36 @@ body {
   height: 200px;
   margin-top: 39px;
   padding-top: 108px; }
+
+#fishingInfo {
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 107;
+  grid-row-end: 154;
+  color: green;
+  padding-top: 3px;
+  height: 200px;
+  margin-top: -102px; }
+
+#rocklimbingInfo {
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 153;
+  grid-row-end: 160;
+  color: green;
+  padding-top: 3px;
+  height: 200px;
+  margin-top: 39px;
+  padding-top: 108px; }
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  background-color: grey;
+  grid-row-start: 166;
+  grid-row-end: 170;
+  color: white;
+  padding-top: 0px;
+  margin-top: 0px; }
 
 /*# sourceMappingURL=style.css.map */
